@@ -403,7 +403,7 @@ ul.footer-nav{
             height: 0;
             position: relative;
             top: -20px;
-            right: 100px;
+            left: 110px;
             border-top: 20px solid transparent;
             border-right: 40px solid var(--White);
             border-bottom: 20px solid transparent;    
