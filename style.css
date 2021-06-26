@@ -401,9 +401,9 @@ ul.footer-nav{
             content: "";
             width: 0;
             height: 0;
-            position: absolute;
-            top: -20px;
-            right: -60px;
+            position: relative;
+            top: 20px;
+            right: 110px;
             border-top: 20px solid transparent;
             border-right: 40px solid var(--White);
             border-bottom: 20px solid transparent;    
