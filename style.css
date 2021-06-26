@@ -262,8 +262,8 @@ ul li a{
 
 }
 .photo img{
-    width: 50%;
-    height: 50%;
+    width: calc(100% /4);
+    height: 25%;
    margin:auto;
 }
 
