@@ -256,16 +256,15 @@ ul li a{
 
 /* photo section */
 .photo{
-    width:100%;
     margin-top: 50px;
     display: flex;
     flex-wrap:wrap;
 
 }
 .photo img{
-    width: 50%;
-    height: 50%;
-    object-fit:contain;
+    width: 20%;
+    height: 20%;
+   margin:auto;
 }
 
 /* footer */
