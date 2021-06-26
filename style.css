@@ -36,6 +36,7 @@ padding: 10px 0;
 background-image: url(./images/desktop/image-header.jpg);
 background-repeat: no-repeat;
 background-size: cover;
+background-position:center center
 }
 
 .hero-nav{
@@ -321,13 +322,13 @@ ul.footer-nav{
 .attribution { font-size: 16px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:600px) {
     header{
         padding: 10px 0;
         background-image: url(./images/mobile/image-header.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        
+        background-position:center center;
         } 
 
         .hero-nav{
@@ -400,9 +401,9 @@ ul.footer-nav{
             content: "";
             width: 0;
             height: 0;
-            position: relative;
-            bottom: 20px;
-            left: 120px;
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
             border-top: 20px solid transparent;
             border-right: 40px solid var(--White);
             border-bottom: 20px solid transparent;    
